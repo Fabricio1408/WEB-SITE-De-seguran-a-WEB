@@ -1,0 +1,177 @@
+@media (max-width : 1199.98px) {
+
+    .imagem{
+        width: 992px;
+    }
+    
+    .content {
+        width: 992px;
+    }
+    .botao{
+        width: 250px;
+        height: 80px;
+        font-size: 32px;
+    }
+    .textimgcc{
+        font-size: 50px;
+     }
+     .geralinit {
+        width: 992px;
+      }
+
+    
+}
+
+
+@media (max-width : 991.98px) {
+
+    .content {
+        width: 800px;
+    }
+
+    .imagem{
+        width: 800px;
+    }
+    .botao{
+        width: 200px;
+        height: 60px;
+        font-size: 20px;
+    }
+    .textimgcc{
+        font-size: 35px;
+     }
+     .container-geral{
+        padding: 6em;
+        margin-top: 3em;
+
+
+    }
+    .tit{
+        font-size: 7vh;
+    }
+    .geralinit {
+        width: 800px;
+      }
+    
+
+}
+@media (max-width : 767.98px) {    
+.content {
+        width: 576px;
+
+    }
+    .geralinit {
+        flex-direction: column;
+        width: 576px;
+   
+      }
+    
+      .image-container {
+        width: 100%;
+      }
+    
+      .text-container {
+        width: 100%;
+      }
+      .image-container{
+         width: 100%;
+   
+      }
+
+    .imagem{
+        width: 576px;
+    }
+    
+    .container-geral{
+        padding: 2em;
+        margin-top: 7em;
+    }
+    .tit{
+        font-size: 6vh;
+    }
+
+    
+    
+    .intro-2-3-col {
+        float: none;
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .intro-1-3-col {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .intro-1-3-col-item {
+        float: none;
+        width: 100%;
+        height: 300px;
+    }
+
+    .intro-1-3-col-item:nth-of-type(2) {
+        float: none;
+        width: 100%;
+        margin: 0px 0px 10px 0px;
+        height: 300px;
+    }
+
+    .intro-h-600 , .intro-h-100, .intro-h-1-3, .intro-h-50, .intro-h-2-3, .intro-h-1-3{
+        height: auto;
+    }
+
+
+    .h-md-300 {
+        height: 300px !important;
+        margin-bottom: 10px;
+    }
+    .botao{
+        width: 200px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .textimgcc{
+        font-size: 25px;
+     }
+     .textimgc{
+        padding: 40px;
+     }
+     .imgc{
+        margin-top: 5px;
+     }
+}
+
+@media (max-width : 575.98px) {
+
+
+    .content {
+        width: calc(100% - 30px);
+    }
+
+    .imagem{
+        width: calc(100%);
+    }
+    .botao{
+        width: 160px;
+        height: 40px;
+        font-size: 10px;
+    }
+    .textimgcc{
+        font-size: 20px;
+     }
+     .textimgc{
+        padding: 30px;
+     }
+     .tit{
+        font-size: 5vh;
+    }
+    .texto-corpo{
+        font-size: 130%;
+    }
+    .geralinit {
+        width: calc(100% - 30px);
+   
+      }
+    
+}
+
